@@ -8,6 +8,8 @@ int main()
     // Variaveis
     int n, primo, potencia;
 
+    printf("Digite o numero para ser decomposto:\n");
+
     // Scanf do numero que vai ser decomposto
     scanf("%d", &n);
 
