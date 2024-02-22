@@ -31,7 +31,13 @@ int main()
     int soma_resto;
 
     // Scanf do 2 numeros
-    scanf("%d%d", &n1, &n2);
+    printf("Digite o primeiro numero:\n");
+    
+    scanf("%d", &n1);
+
+    printf("Digite o segundo numero:\n");
+
+    scanf("%d", &n2);
 
     // Soma dos dois para a condicao de parara do for principal
     soma_resto = n1 + n2;
